@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77FA47EBBE0A75EE66532409 /* Pods_CityGuess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6049EC36FB965DA1264CED5E /* Pods_CityGuess.framework */; };
 		9D41F479223C02F7009061EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F478223C02F7009061EC /* AppDelegate.swift */; };
-		9D41F47B223C02F7009061EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F47A223C02F7009061EC /* ViewController.swift */; };
-		9D41F47E223C02F7009061EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D41F47C223C02F7009061EC /* Main.storyboard */; };
 		9D41F480223C02F8009061EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D41F47F223C02F8009061EC /* Assets.xcassets */; };
 		9D41F483223C02F8009061EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D41F481223C02F8009061EC /* LaunchScreen.storyboard */; };
+		9D41F49B223C1DB0009061EC /* RealmInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F49A223C1DB0009061EC /* RealmInteractor.swift */; };
+		9D41F49D223C34A8009061EC /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F49C223C34A8009061EC /* NSLayoutConstraint.swift */; };
+		9D41F49F223C34BE009061EC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F49E223C34BE009061EC /* UIViewController.swift */; };
+		9D41F4A1223C34DE009061EC /* RandomCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4A0223C34DE009061EC /* RandomCoordinates.swift */; };
+		9D41F4A3223C35C6009061EC /* CoordinatesDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4A2223C35C6009061EC /* CoordinatesDistance.swift */; };
+		9D41F4A5223C35D7009061EC /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4A4223C35D7009061EC /* Attempt.swift */; };
+		9D41F4A7223C35EB009061EC /* PlaySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4A6223C35EB009061EC /* PlaySession.swift */; };
+		9D41F4A9223C3625009061EC /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4A8223C3625009061EC /* RandomNumber.swift */; };
+		9D41F4AB223C365C009061EC /* Lifecycable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4AA223C365C009061EC /* Lifecycable.swift */; };
+		9D41F4AD223C366F009061EC /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4AC223C366F009061EC /* NibLoadable.swift */; };
+		9D41F4AF223C368F009061EC /* PanoramaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4AE223C368F009061EC /* PanoramaController.swift */; };
+		9D41F4B1223C372F009061EC /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4B0223C372F009061EC /* HistoryController.swift */; };
+		9D41F4B3223C3740009061EC /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4B2223C3740009061EC /* MapController.swift */; };
+		9D41F4B5223C3767009061EC /* GoogleMapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4B4223C3767009061EC /* GoogleMapService.swift */; };
+		9D41F4B7223C377D009061EC /* GoogleMapImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4B6223C377D009061EC /* GoogleMapImplementation.swift */; };
+		9D41F4B9223C37B7009061EC /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4B8223C37B7009061EC /* RootRouter.swift */; };
+		9D41F4BF223C38A0009061EC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4BD223C38A0009061EC /* MapViewController.swift */; };
+		9D41F4C3223C38B5009061EC /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41F4C1223C38B5009061EC /* PanoramaViewController.swift */; };
+		9DCBAD19223DC13F00F7BCEA /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCBAD17223DC13F00F7BCEA /* HistoryTableViewCell.swift */; };
+		9DCBAD1A223DC13F00F7BCEA /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCBAD18223DC13F00F7BCEA /* HistoryTableViewCell.xib */; };
+		9DCBAD1D223FA74B00F7BCEA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCBAD1B223FA74B00F7BCEA /* HistoryViewController.swift */; };
+		9DCBAD1E223FA74B00F7BCEA /* HistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCBAD1C223FA74B00F7BCEA /* HistoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6049EC36FB965DA1264CED5E /* Pods_CityGuess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CityGuess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CA926745041AD42C7FF364 /* Pods-CityGuess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityGuess.debug.xcconfig"; path = "Target Support Files/Pods-CityGuess/Pods-CityGuess.debug.xcconfig"; sourceTree = "<group>"; };
 		9D41F475223C02F7009061EC /* CityGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D41F478223C02F7009061EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D41F47A223C02F7009061EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D41F47D223C02F7009061EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D41F47F223C02F8009061EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D41F482223C02F8009061EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D41F484223C02F8009061EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D41F49A223C1DB0009061EC /* RealmInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmInteractor.swift; sourceTree = "<group>"; };
+		9D41F49C223C34A8009061EC /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		9D41F49E223C34BE009061EC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		9D41F4A0223C34DE009061EC /* RandomCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCoordinates.swift; sourceTree = "<group>"; };
+		9D41F4A2223C35C6009061EC /* CoordinatesDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesDistance.swift; sourceTree = "<group>"; };
+		9D41F4A4223C35D7009061EC /* Attempt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attempt.swift; sourceTree = "<group>"; };
+		9D41F4A6223C35EB009061EC /* PlaySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySession.swift; sourceTree = "<group>"; };
+		9D41F4A8223C3625009061EC /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		9D41F4AA223C365C009061EC /* Lifecycable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lifecycable.swift; sourceTree = "<group>"; };
+		9D41F4AC223C366F009061EC /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		9D41F4AE223C368F009061EC /* PanoramaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaController.swift; sourceTree = "<group>"; };
+		9D41F4B0223C372F009061EC /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		9D41F4B2223C3740009061EC /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		9D41F4B4223C3767009061EC /* GoogleMapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapService.swift; sourceTree = "<group>"; };
+		9D41F4B6223C377D009061EC /* GoogleMapImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapImplementation.swift; sourceTree = "<group>"; };
+		9D41F4B8223C37B7009061EC /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		9D41F4BD223C38A0009061EC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9D41F4C1223C38B5009061EC /* PanoramaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
+		9DCBAD17223DC13F00F7BCEA /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		9DCBAD18223DC13F00F7BCEA /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		9DCBAD1B223FA74B00F7BCEA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9DCBAD1C223FA74B00F7BCEA /* HistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryViewController.xib; sourceTree = "<group>"; };
+		E17E96B1382C5BF4DED5A80B /* Pods-CityGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityGuess.release.xcconfig"; path = "Target Support Files/Pods-CityGuess/Pods-CityGuess.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FA47EBBE0A75EE66532409 /* Pods_CityGuess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		705E3A33A5ABECDA5B32C3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6049EC36FB965DA1264CED5E /* Pods_CityGuess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8393B1BBA5241BCA1D8EBA33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90CA926745041AD42C7FF364 /* Pods-CityGuess.debug.xcconfig */,
+				E17E96B1382C5BF4DED5A80B /* Pods-CityGuess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D41F46C223C02F7009061EC = {
 			isa = PBXGroup;
 			children = (
 				9D41F477223C02F7009061EC /* CityGuess */,
 				9D41F476223C02F7009061EC /* Products */,
+				8393B1BBA5241BCA1D8EBA33 /* Pods */,
+				705E3A33A5ABECDA5B32C3A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +119,153 @@
 			isa = PBXGroup;
 			children = (
 				9D41F478223C02F7009061EC /* AppDelegate.swift */,
-				9D41F47A223C02F7009061EC /* ViewController.swift */,
-				9D41F47C223C02F7009061EC /* Main.storyboard */,
+				9D41F48A223C02FE009061EC /* Classes */,
 				9D41F47F223C02F8009061EC /* Assets.xcassets */,
 				9D41F481223C02F8009061EC /* LaunchScreen.storyboard */,
 				9D41F484223C02F8009061EC /* Info.plist */,
 			);
 			path = CityGuess;
+			sourceTree = "<group>";
+		};
+		9D41F48A223C02FE009061EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F490223C035A009061EC /* Models */,
+				9D41F48B223C0307009061EC /* CustomViews */,
+				9D41F494223C0384009061EC /* Screens */,
+				9D41F492223C0375009061EC /* Controllers */,
+				9D41F48F223C0352009061EC /* Extensions */,
+				9D41F48C223C0315009061EC /* Interactors */,
+				9D41F493223C037A009061EC /* Services */,
+				9D41F491223C036D009061EC /* Protocols */,
+				9D41F495223C038D009061EC /* Routers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D41F48B223C0307009061EC /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F48D223C0322009061EC /* Cells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		9D41F48C223C0315009061EC /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F49A223C1DB0009061EC /* RealmInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		9D41F48D223C0322009061EC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F48E223C032C009061EC /* History */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9D41F48E223C032C009061EC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9DCBAD17223DC13F00F7BCEA /* HistoryTableViewCell.swift */,
+				9DCBAD18223DC13F00F7BCEA /* HistoryTableViewCell.xib */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9D41F48F223C0352009061EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F49C223C34A8009061EC /* NSLayoutConstraint.swift */,
+				9D41F49E223C34BE009061EC /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D41F490223C035A009061EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4A0223C34DE009061EC /* RandomCoordinates.swift */,
+				9D41F4A2223C35C6009061EC /* CoordinatesDistance.swift */,
+				9D41F4A4223C35D7009061EC /* Attempt.swift */,
+				9D41F4A6223C35EB009061EC /* PlaySession.swift */,
+				9D41F4A8223C3625009061EC /* RandomNumber.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D41F491223C036D009061EC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4AA223C365C009061EC /* Lifecycable.swift */,
+				9D41F4AC223C366F009061EC /* NibLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9D41F492223C0375009061EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4AE223C368F009061EC /* PanoramaController.swift */,
+				9D41F4B0223C372F009061EC /* HistoryController.swift */,
+				9D41F4B2223C3740009061EC /* MapController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9D41F493223C037A009061EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4B4223C3767009061EC /* GoogleMapService.swift */,
+				9D41F4B6223C377D009061EC /* GoogleMapImplementation.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9D41F494223C0384009061EC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4BC223C3880009061EC /* Map */,
+				9D41F4BB223C387A009061EC /* Panorama */,
+				9D41F4BA223C3875009061EC /* History */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9D41F495223C038D009061EC /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4B8223C37B7009061EC /* RootRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		9D41F4BA223C3875009061EC /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9DCBAD1B223FA74B00F7BCEA /* HistoryViewController.swift */,
+				9DCBAD1C223FA74B00F7BCEA /* HistoryViewController.xib */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9D41F4BB223C387A009061EC /* Panorama */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4C1223C38B5009061EC /* PanoramaViewController.swift */,
+			);
+			path = Panorama;
+			sourceTree = "<group>";
+		};
+		9D41F4BC223C3880009061EC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9D41F4BD223C38A0009061EC /* MapViewController.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D41F487223C02F8009061EC /* Build configuration list for PBXNativeTarget "CityGuess" */;
 			buildPhases = (
+				955441920C765E90AB1D198E /* [CP] Check Pods Manifest.lock */,
 				9D41F471223C02F7009061EC /* Sources */,
 				9D41F472223C02F7009061EC /* Frameworks */,
 				9D41F473223C02F7009061EC /* Resources */,
+				FA0EE689F163A6685E24B698 /* [CP] Embed Pods Frameworks */,
+				1DE890D703580854D4C8C8CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,34 +330,119 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D41F483223C02F8009061EC /* LaunchScreen.storyboard in Resources */,
+				9DCBAD1A223DC13F00F7BCEA /* HistoryTableViewCell.xib in Resources */,
 				9D41F480223C02F8009061EC /* Assets.xcassets in Resources */,
-				9D41F47E223C02F7009061EC /* Main.storyboard in Resources */,
+				9DCBAD1E223FA74B00F7BCEA /* HistoryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE890D703580854D4C8C8CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CityGuess/Pods-CityGuess-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CityGuess/Pods-CityGuess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955441920C765E90AB1D198E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CityGuess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0EE689F163A6685E24B698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CityGuess/Pods-CityGuess-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CityGuess/Pods-CityGuess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D41F471223C02F7009061EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D41F47B223C02F7009061EC /* ViewController.swift in Sources */,
+				9D41F4AB223C365C009061EC /* Lifecycable.swift in Sources */,
+				9D41F4A1223C34DE009061EC /* RandomCoordinates.swift in Sources */,
+				9D41F49B223C1DB0009061EC /* RealmInteractor.swift in Sources */,
+				9D41F4B9223C37B7009061EC /* RootRouter.swift in Sources */,
+				9D41F4AF223C368F009061EC /* PanoramaController.swift in Sources */,
+				9D41F4A7223C35EB009061EC /* PlaySession.swift in Sources */,
+				9D41F4BF223C38A0009061EC /* MapViewController.swift in Sources */,
+				9D41F4A3223C35C6009061EC /* CoordinatesDistance.swift in Sources */,
 				9D41F479223C02F7009061EC /* AppDelegate.swift in Sources */,
+				9DCBAD19223DC13F00F7BCEA /* HistoryTableViewCell.swift in Sources */,
+				9D41F49D223C34A8009061EC /* NSLayoutConstraint.swift in Sources */,
+				9D41F4A9223C3625009061EC /* RandomNumber.swift in Sources */,
+				9DCBAD1D223FA74B00F7BCEA /* HistoryViewController.swift in Sources */,
+				9D41F4B7223C377D009061EC /* GoogleMapImplementation.swift in Sources */,
+				9D41F4B1223C372F009061EC /* HistoryController.swift in Sources */,
+				9D41F4AD223C366F009061EC /* NibLoadable.swift in Sources */,
+				9D41F49F223C34BE009061EC /* UIViewController.swift in Sources */,
+				9D41F4B5223C3767009061EC /* GoogleMapService.swift in Sources */,
+				9D41F4C3223C38B5009061EC /* PanoramaViewController.swift in Sources */,
+				9D41F4B3223C3740009061EC /* MapController.swift in Sources */,
+				9D41F4A5223C35D7009061EC /* Attempt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D41F47C223C02F7009061EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D41F47D223C02F7009061EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D41F481223C02F8009061EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +572,7 @@
 		};
 		9D41F488223C02F8009061EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90CA926745041AD42C7FF364 /* Pods-CityGuess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +591,7 @@
 		};
 		9D41F489223C02F8009061EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17E96B1382C5BF4DED5A80B /* Pods-CityGuess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
